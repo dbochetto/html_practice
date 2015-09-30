@@ -1,3 +1,18 @@
-.table1 {
+body {
+      font: arial;
+      font-size: 8px;
+    }
+
+td {
+      vertical-align: top;
+      border: thin black solid;
+    }
+
+.row1 {
 	border: none;
+}
+
+.canvas_section ul {
+	list-style-type: none;
+	padding-left: 5px;
 }
