@@ -7,8 +7,8 @@
 }
 
 body {
-      font: arial;
-      font-size: 6px;
+      font-family: "Arial";
+      font-size: 6pt;
     }
 
 td {
@@ -16,24 +16,10 @@ td {
       border: thin black solid;
     }
 
-h1 {
-	font-size: 18px;
-	font-style: bold;
-}
-
-h2 {
-	padding-left: 8px;
-	font-size: 12px;
-	font-style: bold;
-}
-
 h3 {
-	padding-left: 8px;
-	font-size: 9px;
-	margin-right: 10px;
+	font-size: 8px;
 	margin-bottom: 0px;
 	text-transform: uppercase;
-	font-style: bold;
 }
 
 h4 {
@@ -42,7 +28,6 @@ h4 {
 
 p {
 	margin: 0px;
-	padding-left: 8px;
 }
 
 .row1 {
@@ -50,24 +35,24 @@ p {
 }
 
 ul {
-	margin-top: 0px;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
 }
 
 
-.canvas_section ul {
+.canvas_section {
 	list-style-type: none;
-	padding-left: 8px;
+	padding: 0 10px;
 }
 
 .sublist {
-	font-style: italic;
-	margin: 0px;
-	padding-left: 8px;
+	font-style: italic;	
 }
 
 ol {
 	list-style-type: decimal;
-	list-style-position: inside;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	list-style-position: outside;
+	padding: 10px 10px;
+	margin: 0px;
 }
