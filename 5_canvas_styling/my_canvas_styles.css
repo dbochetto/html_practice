@@ -1,6 +1,14 @@
+.canvas {
+	width: 100%;
+}
+
+.wide_input {
+  width: 90%;
+}
+
 body {
       font: arial;
-      font-size: 8px;
+      font-size: 6px;
     }
 
 td {
@@ -8,11 +16,58 @@ td {
       border: thin black solid;
     }
 
+h1 {
+	font-size: 18px;
+	font-style: bold;
+}
+
+h2 {
+	padding-left: 8px;
+	font-size: 12px;
+	font-style: bold;
+}
+
+h3 {
+	padding-left: 8px;
+	font-size: 9px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+	font-style: bold;
+}
+
+h4 {
+	margin: 0px;
+}
+
+p {
+	margin: 0px;
+	padding-left: 8px;
+}
+
 .row1 {
 	border: none;
 }
 
+ul {
+	margin-top: 0px;
+}
+
+
 .canvas_section ul {
 	list-style-type: none;
-	padding-left: 5px;
+	padding-left: 8px;
+}
+
+.sublist {
+	font-style: italic;
+	margin: 0px;
+	padding-left: 8px;
+}
+
+ol {
+	list-style-type: decimal;
+	list-style-position: inside;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
